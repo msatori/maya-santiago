@@ -1689,6 +1689,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/components\/Projects\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Projects\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/components\/Resume\/index.js" : {
       "bF" : 0,
       "ft" : 64,
