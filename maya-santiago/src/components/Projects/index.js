@@ -41,20 +41,21 @@ const Projects = ({ }) => {
     // const [currentProject, setCurrentProject] = useState();
 
     return (
-       // {
-          //  currentPhotos.map((work, i) => (
+        
+            projects.map((project, i) => (
                 <div className="card">
-                    {/* < a href={work.deployUrl}>
-                        <h3 className="card-title">{work.name}</h3>
+                    < a href={project.deployUrl}>
+                        <h3 className="card-title">{project.name}</h3>
                         <img className="card-img"
-                            src={require(`../../assets/images/${i}`).default}
+                            src={require(`../../assets/images/${i}.png`).default}
+                            key={project.name}
                         ></img>
-                        <div className="card-text">{work.description}</div>
-                        <div className="card-link">{work.deployUrl}</div>
-                    </ a> */}
+                        <div className="card-text">{project.description}</div>
+                        <div className="card-link">{project.gitUrl}</div>
+                    </ a>
                 </div>
-           // ))
-        //}
+            ))
+        
     );
 };
 

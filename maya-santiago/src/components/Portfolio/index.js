@@ -2,7 +2,7 @@ import React from 'react';
 import Projects from '../Projects'
 
 
-const Portfolio = () => {
+const Portfolio = ( ) => {
     return(
         <section className="projects">
             <div className="container-fluid">
