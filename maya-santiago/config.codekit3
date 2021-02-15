@@ -14,14 +14,111 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
+      "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/build" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/build\/build",
+    "\/build\/santas-helper.png" : {
+      "ft" : 32768,
+      "iS" : 90461,
+      "oA" : 0,
+      "oAP" : "\/build\/santas-helper.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/build\/src\/assets\/images\/santas-helper.png" : {
+      "ft" : 32768,
+      "iS" : 90461,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/assets\/images\/santas-helper.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/build\/src\/assets\/resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/assets\/resume.pdf",
       "oF" : 0
+    },
+    "\/build\/src\/assets\/resume\/Santiago Resume 2021 (1).pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/assets\/resume\/Santiago Resume 2021 (1).pdf",
+      "oF" : 0
+    },
+    "\/build\/src\/assets\/resume\/Santiago Resume 2021.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/assets\/resume\/Santiago Resume 2021.pdf",
+      "oF" : 0
+    },
+    "\/build\/src\/components\/Contact" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/components\/Contact",
+      "oF" : 0
+    },
+    "\/build\/src\/components\/Header\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/components\/Header\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/components\/Projects\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/components\/Projects\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/components\/Resume\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/components\/Resume\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/index.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/index-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/node_modules" : {
       "ft" : 65536,
@@ -47,17 +144,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/build\/node_modules\/@fortawesome\/free-brands-svg-icons\/index.es-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/node_modules\/@fortawesome\/free-solid-svg-icons\/index.es.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/build\/node_modules\/@fortawesome\/free-solid-svg-icons\/index.es-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1412,12 +1498,28 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/public\/favicon.ico" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/public\/favicon.ico",
+      "oAP" : "\/public\/favicon.ico",
       "oF" : 0
     },
     "\/public\/index.html" : {
@@ -1425,14 +1527,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/public\/index.html",
+      "oAP" : "\/public\/index.html",
       "oF" : 0
     },
     "\/public\/logo192.png" : {
       "ft" : 32768,
       "iS" : 5347,
       "oA" : 0,
-      "oAP" : "\/build\/public\/logo192.png",
+      "oAP" : "\/public\/logo192.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1445,7 +1547,7 @@
       "ft" : 32768,
       "iS" : 9664,
       "oA" : 0,
-      "oAP" : "\/build\/public\/logo512.png",
+      "oAP" : "\/public\/logo512.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1457,7 +1559,7 @@
     "\/public\/manifest.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/public\/manifest-min.json",
+      "oAP" : "\/public\/manifest-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -1467,7 +1569,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/public\/robots.txt",
+      "oAP" : "\/public\/robots.txt",
       "oF" : 0
     },
     "\/README.md" : {
@@ -1480,7 +1582,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/README.html",
+      "oAP" : "\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1489,16 +1591,151 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/src\/App.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/App-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/App.test.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/App.test-min.js",
+      "oAP" : "\/src\/App.test-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/src\/assets\/images\/santas-helper.png" : {
+      "ft" : 32768,
+      "iS" : 326212,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/images\/santas-helper.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/resume.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/resume.pdf",
+      "oF" : 0
+    },
+    "\/src\/components\/About\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/About\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Contact\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Contact\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Footer\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Footer\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Nav\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Nav\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Portfolio\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Portfolio\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Resume\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/components\/Resume\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/index.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/index-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/src\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/index.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/index.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     },
     "\/src\/reportWebVitals.js" : {
       "bF" : 0,
@@ -1506,7 +1743,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/reportWebVitals-min.js",
+      "oAP" : "\/src\/reportWebVitals-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -1517,7 +1754,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/setupTests-min.js",
+      "oAP" : "\/src\/setupTests-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
@@ -1829,7 +2066,7 @@
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
     "buildEnvironment" : 0,
-    "buildFolderActive" : 1,
+    "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "coffeeLintFlags2" : {
@@ -3483,7 +3720,7 @@
       "autoOutputPathRelativePath" : "..\/css",
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
-      "autoOutputPathStyle" : 3,
+      "autoOutputPathStyle" : 0,
       "compilerType" : 0,
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
@@ -3908,7 +4145,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "build"
+    "websiteRelativeRoot" : ""
   },
   "settingsFileVersion" : "3"
 }

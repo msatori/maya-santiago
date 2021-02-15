@@ -1,0 +1,63 @@
+$primary: #01054C;
+$font-color: #D4A435;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Roboto&display=swap&effect=3d-float');
+$heading: 'Brygada 1918', serif;
+$text: 'Roboto', sans-serif;
+$text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0,0,0,0, .15);
+
+body {
+   background-color: $primary;
+    
+  }
+
+
+nav {
+    li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        text-decoration: none;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.mx-2 {
+    margin-right: var(--spacing-two);
+    margin-left: var(--spacing-two);
+ }
+
+
+.about-container {
+    color: $font-color;
+    padding-left: 10%;
+    padding-bottom: 30px;
+    border: 2px solid $font-color;
+    margin: 50px;
+    
+    h1 {
+        font-family: $heading;
+        font-size: 150px;
+        margin-bottom: 20px;
+        text-shadow: $text-shadow;
+        margin-top: 10px;
+    }
+
+    span {
+        font-family: $text;
+        font-size: 40px;
+        text-shadow: $text-shadow;
+        margin-bottom: 75px;
+    }
+  }
+
+  a {
+      color: white;
+  }
