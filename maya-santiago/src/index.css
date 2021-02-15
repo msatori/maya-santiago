@@ -23,7 +23,8 @@ nav a:hover {
 
 .about-container {
   color: #D4A435;
-  padding-left: 20%;
+  padding-left: 10%;
+  padding-bottom: 30px;
   border: 2px solid #D4A435;
   margin: 50px;
 }
@@ -32,9 +33,11 @@ nav a:hover {
   font-size: 150px;
   margin-bottom: 20px;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0, 0, 0, 0, 0.15);
+  margin-top: 10px;
 }
 .about-container span {
   font-family: "Roboto", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0, 0, 0, 0, 0.15);
+  margin-bottom: 75px;
 }

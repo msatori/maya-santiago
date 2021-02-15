@@ -37,7 +37,8 @@ nav {
 
 .about-container {
     color: $font-color;
-    padding-left: 20%;
+    padding-left: 10%;
+    padding-bottom: 30px;
     border: 2px solid $font-color;
     margin: 50px;
     
@@ -46,11 +47,13 @@ nav {
         font-size: 150px;
         margin-bottom: 20px;
         text-shadow: $text-shadow;
+        margin-top: 10px;
     }
 
     span {
         font-family: $text;
-        font-size: 50px;
+        font-size: 40px;
         text-shadow: $text-shadow;
+        margin-bottom: 75px;
     }
   }
