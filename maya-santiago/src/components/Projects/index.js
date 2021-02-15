@@ -37,24 +37,24 @@ const Projects = ({ }) => {
         },
     ]);
 
-    const currentProjects = projects.filter((project) => project.name === name );
-    const [currentProject, setCurrentProject] = useState();
+    // const currentProjects = projects.filter((project) => project.name === name );
+    // const [currentProject, setCurrentProject] = useState();
 
     return (
-        {
-            currentPhotos.map((work, i) => (
+       // {
+          //  currentPhotos.map((work, i) => (
                 <div className="card">
-                    < a href={work.deployUrl}>
+                    {/* < a href={work.deployUrl}>
                         <h3 className="card-title">{work.name}</h3>
                         <img className="card-img"
                             src={require(`../../assets/images/${i}`).default}
                         ></img>
                         <div className="card-text">{work.description}</div>
                         <div className="card-link">{work.deployUrl}</div>
-                    </ a>
+                    </ a> */}
                 </div>
-            ))
-        }
+           // ))
+        //}
     );
 };
 
