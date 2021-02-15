@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 function Nav() {
-
+    //const [currentPage, setCurrentPage ] = useState(0)
     const clickHander = (item) => {
         console.log(item)
         return item;

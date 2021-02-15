@@ -1613,11 +1613,50 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/src\/assets\/images\/santas-helper.png" : {
+    "\/src\/assets\/images\/0.png" : {
       "ft" : 32768,
       "iS" : 326212,
       "oA" : 0,
-      "oAP" : "\/src\/assets\/images\/santas-helper.png",
+      "oAP" : "\/src\/assets\/images\/0.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/images\/1.png" : {
+      "ft" : 32768,
+      "iS" : 232789,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/images\/1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/images\/2.png" : {
+      "ft" : 32768,
+      "iS" : 3021429,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/images\/2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/assets\/images\/3.png" : {
+      "ft" : 32768,
+      "iS" : 450497,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/images\/3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
