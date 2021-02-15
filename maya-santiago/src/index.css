@@ -9971,3 +9971,7 @@ nav a:hover {
   text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0, 0, 0, 0, 0.15);
   margin-bottom: 75px;
 }
+
+a {
+  color: white;
+}

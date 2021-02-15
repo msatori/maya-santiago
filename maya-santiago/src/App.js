@@ -4,6 +4,7 @@ import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Resume from './components/Resume';
 //style imports
 
 
@@ -14,6 +15,7 @@ function App() {
       <main>
         <About></About>
         <Portfolio></Portfolio>
+        <Resume></Resume>
       </main>
       <Contact></Contact>
     </div>
