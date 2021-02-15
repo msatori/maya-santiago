@@ -5,8 +5,13 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
 import Resume from './components/Resume';
-//style imports
+import Footer from './components/Footer';
+//icon imports
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import  {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
+library.add(fab, faLinkedin, faGithub );
 
 function App() {
   return (
@@ -18,6 +23,7 @@ function App() {
         <Resume></Resume>
       </main>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

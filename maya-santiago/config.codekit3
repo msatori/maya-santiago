@@ -29,6 +29,50 @@
       "oAP" : "\/build\/node_modules",
       "oF" : 0
     },
+    "\/node_modules\/@fortawesome\/fontawesome-svg-core\/index.es.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/@fortawesome\/fontawesome-svg-core\/index.es-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@fortawesome\/free-brands-svg-icons\/index.es.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/@fortawesome\/free-brands-svg-icons\/index.es-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@fortawesome\/free-solid-svg-icons\/index.es.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/@fortawesome\/free-solid-svg-icons\/index.es-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/node_modules\/@fortawesome\/react-fontawesome\/index.es.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/@fortawesome\/react-fontawesome\/index.es-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/node_modules\/@testing-library\/dom\/dist\/@testing-library\/dom.esm.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1335,6 +1379,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/node_modules\/prop-types\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/build\/node_modules\/prop-types\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/node_modules\/react-dom\/index.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1511,6 +1566,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/build\/src\/components\/Contact\/index-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Footer\/index.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/components\/Footer\/index-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
