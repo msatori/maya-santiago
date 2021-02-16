@@ -1,11 +1,14 @@
-import React, {useState} from 'react';
+import React, { useEffect } from 'react';
 
 function Nav() {
-    //const [currentPage, setCurrentPage ] = useState(0)
+    
     const clickHander = (item) => {
         console.log(item)
         return item;
     }
+
+    
+
     return(
         <header className="flex-row px-1">
             <h2>
@@ -20,6 +23,9 @@ function Nav() {
                     </li>
                     <li className='mx-2'>
                     <a href="#projects" onClick={clickHander}> My Projects</a>
+                    </li>
+                    <li className="mx-2">
+                    <a href="#resume" onClick={clickHander}> Resume </a>
                     </li>
                     <li className="mx-2">
                     <a href="#contact" onClick={clickHander}> Contact Me </a>

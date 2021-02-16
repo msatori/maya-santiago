@@ -1,28 +1,46 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 //component imports
-import About from './components/About';
+
 import Nav from './components/Nav';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact'
-import Resume from './components/Resume';
+import PageWrapper from './components/PageWrapper';
 import Footer from './components/Footer';
 //icon imports
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import  {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+//helper import
 
-library.add(fab, faLinkedin, faGithub );
+
+library.add(fab, faLinkedin, faGithub);
 
 function App() {
+  const [pages] = useState([
+    {
+      name: "about me",
+    },
+    {
+      name: "my projects"
+    },
+    {
+      name: "my resume"
+    },
+    {
+      name: "contact me"
+    }
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0])
+
   return (
     <div className="container-fluid">
-      <Nav></Nav>
+      <Nav
+        pages={currentPage}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      ></Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
+        <PageWrapper currentPage={currentPage}></PageWrapper>
       </main>
-      <Contact></Contact>
       <Footer></Footer>
     </div>
   );

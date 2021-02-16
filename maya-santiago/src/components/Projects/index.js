@@ -51,7 +51,7 @@ const Projects = ({ }) => {
                             key={project.name}
                         ></img>
                         <div className="card-text">{project.description}</div>
-                        <div className="card-link">{project.gitUrl}</div>
+                        <a href={project.gitUrl}>Visit Github Repository</a>
                     </ a>
                 </div>
             ))
