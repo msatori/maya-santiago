@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 //component imports
 
 import Nav from './components/Nav';
@@ -16,16 +16,12 @@ library.add(fab, faLinkedin, faGithub);
 function App() {
   const [pages] = useState([
     {
-      name: "about me",
+      name: "About Me"
     },
+    { name: "My Portfolio" },
+    { name: "Contact Me" },
     {
-      name: "my projects"
-    },
-    {
-      name: "my resume"
-    },
-    {
-      name: "contact me"
+      name: "My Resume"
     }
   ]);
 

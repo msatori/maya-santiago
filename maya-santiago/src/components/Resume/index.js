@@ -1,10 +1,10 @@
 import React from 'react';
-
+import mayaResume from '../../assets/resume.pdf'
 const Resume = () => {
     return(
         <section className="resume">
             <div className="resume-container">
-                <a src="../../assets/resume.pdf" download="Maya Santiago">Download My Resume</a>
+                <a href={mayaResume} taget="_blank" rel="nonreferrer" download="Maya Santiago">Download My Resume</a>
             </div>
             <div className="resume-text">
                 <ul className="skill-list">
@@ -15,7 +15,7 @@ const Resume = () => {
                     <li>Express.js</li>
                     <li>React.js</li>
                     <li>SQL</li>
-                    <li>MongooseDB</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
         </section>

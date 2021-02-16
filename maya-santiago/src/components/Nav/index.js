@@ -1,15 +1,20 @@
 import React, { useEffect } from 'react';
+import capitalizeFirstLetter from '../../utils/helpers';
 
-function Nav() {
-    
-    const clickHander = (item) => {
-        console.log(item)
-        return item;
-    }
 
-    
+function Nav(props) {
 
-    return(
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage,
+    } = props
+
+    useEffect(() => {
+        document.title = capitalizeFirstLetter(currentPage.name);
+    }, [currentPage])
+
+    return (
         <header className="flex-row px-1">
             <h2>
                 <a href="/">
@@ -18,18 +23,20 @@ function Nav() {
             </h2>
             <nav>
                 <ul className='flex-row'>
-                    <li className='mx-2'>
-                       <a href="#about" onClick={clickHander}> About Me </a>
-                    </li>
-                    <li className='mx-2'>
-                    <a href="#projects" onClick={clickHander}> My Projects</a>
-                    </li>
-                    <li className="mx-2">
-                    <a href="#resume" onClick={clickHander}> Resume </a>
-                    </li>
-                    <li className="mx-2">
-                    <a href="#contact" onClick={clickHander}> Contact Me </a>
-                    </li>
+                    {pages.map((Page) => (
+                        <li
+                            className={`mx-5 ${currentPage.name === Page.name && 'navActive'
+                                }`}
+                            key={Page.name}
+                        >
+                            <span
+                                onClick={() => setCurrentPage(Page)}
+                            >
+                                {capitalizeFirstLetter(Page.name)}
+                            </span>
+                        </li>
+                    ))}
+
                 </ul>
             </nav>
         </header>
