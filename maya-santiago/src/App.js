@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 //component imports
 import Nav from './components/Nav';
+import Header from './components/Header'
 import PageWrapper from './components/PageWrapper';
 import Footer from './components/Footer';
 //icon imports
@@ -9,7 +10,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 //helper import
 
-
+//add github and linkedin icons to library
 library.add(fab, faLinkedin, faGithub);
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
 
   return (
     <div className="container-fluid">
+      <Header />
       <Nav
         pages={pages}
         setCurrentPage={setCurrentPage}

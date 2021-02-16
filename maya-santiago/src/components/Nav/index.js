@@ -16,12 +16,7 @@ function Nav(props) {
     console.log(props)
 
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a href="/">
-                    Maya Santiago
-                </a>
-            </h2>
+       
             <nav>
                 <ul className='flex-row'>
                     {pages.map((Page) => (
@@ -33,14 +28,13 @@ function Nav(props) {
                             <span
                                 onClick={() => setCurrentPage(Page)}
                             >
-                                {capitalizeFirstLetter(Page.name)}
+                               <h3> {capitalizeFirstLetter(Page.name)} </h3>
                             </span>
                         </li>
                     ))}
 
                 </ul>
             </nav>
-        </header>
     )
 };
 

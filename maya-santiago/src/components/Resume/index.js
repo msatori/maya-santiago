@@ -2,7 +2,7 @@ import React from 'react';
 import mayaResume from '../../assets/resume.pdf'
 const Resume = () => {
     return(
-        <section className="resume">
+        <section className="my-resume">
             <div className="resume-container">
                 <a href={mayaResume} taget="_blank" rel="nonreferrer" download="Maya Santiago">Download My Resume</a>
             </div>

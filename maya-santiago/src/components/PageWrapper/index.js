@@ -11,17 +11,16 @@ function PageWrapper(currentPage) {
     const switchPage = () => {
         switch(currentPage.name) {
             case 'About Me':
-                return <About></About>;
+                return <About />;
 
             case 'My Projects':
-                return <Portfolio></Portfolio>;
+                return <Portfolio />;
             
            case 'My Resume':
-                return <Resume></Resume>;
+                return <Resume />;
     
             case 'Contact Me':
-                return <Contact></Contact>;
-
+                return <Contact />;
 
             default:
                 return <About />
@@ -29,6 +28,7 @@ function PageWrapper(currentPage) {
 
     };
     
+   
    
     return(
         <section className="content-wrapper">

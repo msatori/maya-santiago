@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-        <section className="about">
+        <section className="about-me">
             <div className="about-container">
                 
             <h1 id="about" className="font-effect-3d-float">Hi, <br /> I'm Maya.</h1>

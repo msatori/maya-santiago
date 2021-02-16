@@ -4,7 +4,7 @@ import Projects from '../Projects'
 
 const Portfolio = ( ) => {
     return(
-        <section className="projects">
+        <section className="my-projects">
             <div className="container-fluid">
                 <div className="card-deck">
                    <Projects></Projects>
