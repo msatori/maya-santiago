@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 //component imports
-
 import Nav from './components/Nav';
 import PageWrapper from './components/PageWrapper';
 import Footer from './components/Footer';
@@ -30,7 +29,7 @@ function App() {
   return (
     <div className="container-fluid">
       <Nav
-        pages={currentPage}
+        pages={pages}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
       ></Nav>
