@@ -39,18 +39,33 @@ const Contact = () => {
     return(
         <section className='contact-me'>
              <h1>Contact Me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form className="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                  
+                    <input type="text" 
+                    defaultValue={name} 
+                    onBlur={handleChange} 
+                    name="name" 
+                    placeholder="Enter Your Name"
+                    />
                 </div>
                 <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                  
+                    <input type="email" 
+                    name="email" 
+                    defaultValue={email} 
+                    onBlur={handleChange}
+                    placeholder="Enter Your Email Address"
+                    />
                 </div>
                 <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                
+                    <textarea name="message" 
+                    defaultValue={message} 
+                    onBlur={handleChange} 
+                    rows="5" 
+                    placeholder="Type your Message Here"
+                    />
                     {errorMessage && (
                         <div>
                             <p className="error-text">{errorMessage}</p>

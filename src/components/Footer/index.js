@@ -6,17 +6,14 @@ const Footer = () => {
     return (
         <section className="footer">
             <div className="footer-container">
-                <h5 className="footer-text">
-                    Built by Satori Code
-                </h5>
-            </div>
-            <div className="footer-icons">
-                <a href="https://github.com/msatori" target="blank">
-                    <FontAwesomeIcon icon={faGithub} />
-                </a>
-                <a href="www.linkedin.com/in/maya-santiago-58565a114" target="blank">
-                    <FontAwesomeIcon icon={faLinkedin} />
-                </a>
+                <div className="footer-icons">
+                    <a href="https://github.com/msatori" target="blank">
+                        <FontAwesomeIcon icon={faGithub} className="fa-3x"/>
+                    </a>
+                    <a href="www.linkedin.com/in/maya-santiago-58565a114" target="blank">
+                        <FontAwesomeIcon icon={faLinkedin} className="fa-3x"/>
+                    </a>
+                </div>
             </div>
         </section>
     )

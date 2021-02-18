@@ -34,9 +34,7 @@ function PageWrapper({currentPage}) {
 
     return (
         <section className="content-wrapper">
-            <h2>{currentPage.name}</h2>
             <PageContent>{switchPage()}</PageContent>
-
         </section>
     );
 };

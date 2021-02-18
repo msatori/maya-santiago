@@ -15,7 +15,6 @@ function Nav(props) {
 
 
     return (
-       
             <nav>
                 <ul className='flex-row'>
                     {pages.map((Page) => (

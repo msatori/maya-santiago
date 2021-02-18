@@ -9933,7 +9933,17 @@ body {
   background-color: #01054C;
 }
 
-nav li {
+header {
+  font-family: "Brygada 1918", serif;
+  color: #D4A435;
+}
+
+nav h3 {
+  color: #D4A435;
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+}
+nav ul li {
   list-style: none;
   text-decoration: none;
 }
@@ -9951,10 +9961,14 @@ nav a:hover {
   margin-left: var(--spacing-two);
 }
 
+.mx-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}
+
 .about-container {
   color: #D4A435;
-  padding-left: 10%;
-  padding-bottom: 30px;
+  padding: 3% 10% 10% 10%;
   border: 2px solid #D4A435;
   margin: 50px;
 }
@@ -9962,16 +9976,104 @@ nav a:hover {
   font-family: "Brygada 1918", serif;
   font-size: 150px;
   margin-bottom: 20px;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0, 0, 0, 0, 0.15);
   margin-top: 10px;
 }
 .about-container span {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
-  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0, 0, 0, 0, 0.15);
   margin-bottom: 75px;
 }
 
 a {
   color: white;
+}
+
+.card-deck {
+  padding: 10% 5% 10% 5%;
+  margin: 30pt;
+  border: 2px solid #D4A435;
+}
+.card-deck .card {
+  background-color: #D4A435;
+  border-radius: 0%;
+  text-align: center;
+}
+.card-deck .card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 99999;
+}
+.card-deck .card-title {
+  font-family: "Brygada 1918", serif;
+}
+.card-deck .card-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.my-resume {
+  border: 2px solid #D4A435;
+  padding: 30pt;
+  margin: 20pt;
+}
+.my-resume .resume-container {
+  text-align: center;
+  font-size: 20pt;
+  padding-bottom: 20pt;
+}
+.my-resume .resume-container a {
+  color: #D4A435;
+}
+.my-resume .resume-container a-:hover {
+  font-size: 23pt;
+  color: white;
+}
+.my-resume .resume-text {
+  text-align: center;
+  color: white;
+}
+.my-resume .resume-text li {
+  list-style: none;
+}
+
+.contact-me {
+  text-align: center;
+  color: #D4A435;
+}
+.contact-me .contact-form {
+  font-family: "Roboto", sans-serif;
+}
+.contact-me .contact-form input {
+  margin: 5pt;
+  width: 25%;
+}
+.contact-me .contact-form textarea {
+  margin: 10pt;
+  width: 25%;
+}
+.contact-me .contact-form button {
+  background-color: #D4A435;
+  color: white;
+  padding: 3pt;
+  border-radius: 50%;
+  width: 15%;
+  border: none;
+}
+.contact-me .contact-form button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.footer-container {
+  bottom: 0;
+  padding-bottom: 5pt;
+  padding-left: 45%;
+  position: fixed;
+}
+.footer-icons {
+  height: 30pt;
+  width: 30pt;
+  margin: 3pt;
+  display: inline;
 }
