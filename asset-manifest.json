@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maya-santiago/static/css/main.780410bc.chunk.css",
+    "main.js": "/maya-santiago/static/js/main.e32d68f7.chunk.js",
+    "main.js.map": "/maya-santiago/static/js/main.e32d68f7.chunk.js.map",
+    "runtime-main.js": "/maya-santiago/static/js/runtime-main.d8d1b2e8.js",
+    "runtime-main.js.map": "/maya-santiago/static/js/runtime-main.d8d1b2e8.js.map",
+    "static/js/2.777856c6.chunk.js": "/maya-santiago/static/js/2.777856c6.chunk.js",
+    "static/js/2.777856c6.chunk.js.map": "/maya-santiago/static/js/2.777856c6.chunk.js.map",
+    "static/js/3.45992303.chunk.js": "/maya-santiago/static/js/3.45992303.chunk.js",
+    "static/js/3.45992303.chunk.js.map": "/maya-santiago/static/js/3.45992303.chunk.js.map",
+    "index.html": "/maya-santiago/index.html",
+    "static/css/main.780410bc.chunk.css.map": "/maya-santiago/static/css/main.780410bc.chunk.css.map",
+    "static/js/2.777856c6.chunk.js.LICENSE.txt": "/maya-santiago/static/js/2.777856c6.chunk.js.LICENSE.txt",
+    "static/media/0.png": "/maya-santiago/static/media/0.422d4f09.png",
+    "static/media/1.png": "/maya-santiago/static/media/1.11239a4d.png",
+    "static/media/2.png": "/maya-santiago/static/media/2.c387d817.png",
+    "static/media/3.png": "/maya-santiago/static/media/3.63420f1b.png",
+    "static/media/resume.52fa6d32.pdf": "/maya-santiago/static/media/resume.52fa6d32.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8d1b2e8.js",
+    "static/js/2.777856c6.chunk.js",
+    "static/css/main.780410bc.chunk.css",
+    "static/js/main.e32d68f7.chunk.js"
+  ]
+}
