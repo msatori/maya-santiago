@@ -43,16 +43,15 @@ const Projects = ({ }) => {
     return (
         
             projects.map((project, i) => (
-                <div className="card">
+                <div className="card" key={project.name}>
                     < a href={project.deployUrl}>
                         <h3 className="card-title">{project.name}</h3>
                         <img className="card-img"
                             src={require(`../../assets/images/${i}.png`).default}
-                            key={project.name}
                         ></img>
                         <div className="card-text">{project.description}</div>
-                        <a href={project.gitUrl}>Visit Github Repository</a>
                     </ a>
+                        <a href={project.gitUrl}>Visit Github Repository</a>
                 </div>
             ))
         

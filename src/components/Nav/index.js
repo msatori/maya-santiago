@@ -1,5 +1,5 @@
+import { faRProject } from '@fortawesome/free-brands-svg-icons';
 import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
 
@@ -10,10 +10,9 @@ function Nav(props) {
     } = props;
 
     useEffect(() => {
-        document.title = capitalizeFirstLetter(currentPage.name);
+        document.title = currentPage.name;
     }, [currentPage]); 
 
-    console.log(props)
 
     return (
        
@@ -28,7 +27,7 @@ function Nav(props) {
                             <span
                                 onClick={() => setCurrentPage(Page)}
                             >
-                               <h3> {capitalizeFirstLetter(Page.name)} </h3>
+                               <h3> {Page.name} </h3>
                             </span>
                         </li>
                     ))}

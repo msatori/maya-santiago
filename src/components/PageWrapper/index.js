@@ -7,19 +7,21 @@ import Resume from '../Resume';
 import PageContent from '../PageContent'
 
 
-function PageWrapper(currentPage) {
+function PageWrapper({currentPage}) {
     const switchPage = () => {
-        switch(currentPage.name) {
+        switch (currentPage.name) {
             case 'About Me':
                 return <About />;
 
-            case 'My Projects':
+            case 'My Portfolio':
+                console.log('Portfolio')
                 return <Portfolio />;
-            
-           case 'My Resume':
+
+            case 'My Resume':
                 return <Resume />;
-    
+
             case 'Contact Me':
+                console.log('Contact')
                 return <Contact />;
 
             default:
@@ -27,12 +29,14 @@ function PageWrapper(currentPage) {
         }
 
     };
-    
-   
-   
-    return(
+
+
+
+    return (
         <section className="content-wrapper">
-           <PageContent> {switchPage()} </PageContent>
+            <h2>{currentPage.name}</h2>
+            <PageContent>{switchPage()}</PageContent>
+
         </section>
     );
 };
