@@ -29,11 +29,11 @@ const Projects = ({ }) => {
             gitUrl: "https://github.com/jess-smith49/the-menu"
         },
         {
-            name: "HEX Regex Tutorial",
-            role: "Author",
-            description: "A simple tutorial explaining the use of Regular Expressions in web development, and an example of how to create a Regex for a HEX number.",
-            gitUrl: "https://gist.github.com/msatori/d0016cbeb8a57e206fed98e874389656",
-            deployUrl: " https://gist.github.com/msatori/d0016cbeb8a57e206fed98e874389656"
+            name: "Dev Learn",
+            role: "UI/Frontend",
+            description: "Web developer quiz app",
+            gitUrl: "https://github.com/jess-smith49/dev-tools",
+            deployUrl: " https://murmuring-scrubland-26245.herokuapp.com/"
         },
     ]);
 
