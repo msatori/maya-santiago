@@ -1,14 +1,18 @@
 $primary: #01054C;
 $font-color: #D4A435;
 $heading: 'Brygada 1918', serif;
+$test-heading: 'Righteous', cursive;
 $text: 'Roboto', sans-serif;
-$text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0,0,0,0, .15);
+$text-shadow: 0px 15px 5px rgba(253, 242, 242, 0.1),
+10px 20px 5px rgba(0,0,0,0.05),
+-10px 20px 5px rgba(0,0,0,0.05);;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Roboto&display=swap&effect=3d-float');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-   background-color: $primary;
+   background-image: url('../src/assets/images/bg.png');
     
   }
 
@@ -54,18 +58,20 @@ nav {
   }
 
 .about-container {
-    color: $font-color;
+    text-align: center;
+    color: #38b6ff;
     padding: 3% 10% 10% 10%;
-    border: 2px solid $font-color;
     margin: 50px;
     
     h1 {
-        font-family: $heading;
+        font-family: $test-heading;
         font-size: 150px;
         margin-bottom: 20px;
         margin-top: 10px;
-    
+        
     }
+
+   
 
     span {
         font-family: $text;
@@ -117,11 +123,8 @@ nav {
             a {
                 color: $font-color;
 
-                &-:hover {
-                    font-size: 23pt;
-                    color: white;
-                }
             }
+      
         }
         .resume-text {
             text-align: center;
@@ -131,7 +134,8 @@ nav {
                 list-style: none;
             }
         }
-}
+  }
+
 
 .contact-me {
     text-align: center;
