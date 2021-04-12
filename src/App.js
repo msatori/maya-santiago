@@ -16,6 +16,9 @@ library.add(fab, faLinkedin, faGithub);
 function App() {
   const [pages] = useState([
     {
+      name: "Home"
+    },
+    {
       name: "About Me"
     },
     { name: "My Portfolio" },

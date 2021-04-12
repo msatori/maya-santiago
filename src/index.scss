@@ -1,14 +1,17 @@
 $primary: #01054C;
 $font-color: #D4A435;
 $heading: 'Brygada 1918', serif;
+$test-heading: 'Righteous', cursive;
 $text: 'Roboto', sans-serif;
 $text-shadow: 4px 3px 0px #fff, 9px 8px 0px rbga(0,0,0,0, .15);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Roboto&display=swap&effect=3d-float');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body {
-   background-color: $primary;
+   background-image: url('./assets/images/bg.png');
+   background-repeat: no-repeat;
     
   }
 
@@ -53,24 +56,27 @@ nav {
     margin-bottom: var(--spacing-five);
   }
 
-.about-container {
-    color: $font-color;
-    padding: 3% 10% 10% 10%;
-    border: 2px solid $font-color;
+.home-container {
+    color:  #38b6ff;
     margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
     h1 {
-        font-family: $heading;
-        font-size: 150px;
+        font-family: $test-heading;
+        font-size: calc(80pt + 1em);
         margin-bottom: 20px;
         margin-top: 10px;
+        animation: slide 5s ease-out;
     
     }
 
     span {
         font-family: $text;
-        font-size: 40px;
+        font-size: calc(20pt + 1em);
         margin-bottom: 75px;
+        animation: slide2 10s ease-out;
     }
   }
 
@@ -114,14 +120,6 @@ nav {
             font-size: 20pt;
             padding-bottom: 20pt;
             
-            a {
-                color: $font-color;
-
-                &-:hover {
-                    font-size: 23pt;
-                    color: white;
-                }
-            }
         }
         .resume-text {
             text-align: center;
@@ -182,3 +180,21 @@ nav {
         display: inline;
     }   
 }
+
+@keyframes slide {
+     0%   { 
+        transform: translateY(-200%); 		
+        }
+     100% { 
+        transform: translateY(0%); 
+        }
+  }
+
+  @keyframes slide2 {
+      0% {
+          transform: translateY(200%);
+      }
+      100% {
+          transform: translateY(0%);
+      }
+  }

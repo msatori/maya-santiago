@@ -1,5 +1,5 @@
 import react from 'react';
-
+import Home from '../../pages/Home'
 import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact'
@@ -10,6 +10,9 @@ import PageContent from '../PageContent'
 function PageWrapper({currentPage}) {
     const switchPage = () => {
         switch (currentPage.name) {
+            case 'Home':
+                return <Home />;
+                
             case 'About Me':
                 return <About />;
 
@@ -25,7 +28,7 @@ function PageWrapper({currentPage}) {
                 return <Contact />;
 
             default:
-                return <About />
+                return <Home />
         }
 
     };
