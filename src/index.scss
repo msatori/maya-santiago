@@ -61,7 +61,7 @@ nav {
     
     h1 {
         font-family: $heading;
-        font-size: 150px;
+        font-size: calc(90px + 1em);
         margin-bottom: 20px;
         margin-top: 10px;
     
@@ -180,5 +180,6 @@ nav {
         width: 30pt;
         margin: 3pt;
         display: inline;
+        position: absolute;
     }   
 }
